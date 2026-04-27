@@ -1,11 +1,5 @@
-import React from "react";
 import ToolCard from "../Cards/ToolCard";
-import { Tool } from "@/types/tool-types";
-
-interface ToolGridProps {
-  tools: Tool[];
-  initialToolsLoaded: boolean;
-}
+import { ToolGridProps } from "@/types/category-component-types";
 
 /**
  * Grid layout component for displaying tool cards

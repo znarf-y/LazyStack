@@ -1,14 +1,9 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
-
-interface FooterContactProps {
-  isDark: boolean;
-}
-
-interface ContactLink {
-  href: string;
-  username: string;
-}
+import {
+  FooterContactProps,
+  ContactLink,
+} from "@/types/footer-component-types";
 
 /**
  * Contact section in the footer with GitHub links

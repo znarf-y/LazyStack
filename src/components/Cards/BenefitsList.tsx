@@ -1,9 +1,4 @@
-import React from "react";
-
-interface BenefitsListProps {
-  benefits: string[];
-  theme: string | undefined;
-}
+import { BenefitsListProps } from "@/types/card-component-types";
 
 /**
  * Displays a list of benefit tags for a tool

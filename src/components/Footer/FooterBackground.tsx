@@ -1,8 +1,5 @@
 import React from "react";
-
-interface FooterBackgroundProps {
-  isDark: boolean;
-}
+import { FooterBackgroundProps } from "@/types/footer-component-types";
 
 /**
  * Background visual effects for the footer

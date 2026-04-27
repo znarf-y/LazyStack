@@ -1,13 +1,6 @@
 "use client";
 
-import { ReactNode } from "react";
-
-type ScrollToElementProps = {
-  children: ReactNode;
-  targetId: string;
-  offset?: number;
-  className?: string;
-};
+import { ScrollToElementProps } from "@/types/smooth-scroll-component-types";
 
 export function ScrollToElement({
   children,

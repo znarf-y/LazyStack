@@ -2,13 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { DialogFooter } from "@/components/ui/dialog";
 import { ArrowRight, ExternalLink } from "lucide-react";
-
-interface ToolFooterProps {
-  category?: string;
-  tryNowLink?: string;
-  link?: string;
-  theme: string | undefined;
-}
+import { ToolFooterProps } from "@/types/tool-details-component-types";
 
 /**
  * Footer component for the tool details dialog

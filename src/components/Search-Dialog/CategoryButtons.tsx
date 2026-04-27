@@ -1,10 +1,6 @@
 import React from "react";
+import { CategoryButtonsProps } from "@/types/search-dialog-component-types";
 import { Category } from "../../types/search-types";
-
-interface CategoryButtonsProps {
-  selectedCategory: Category;
-  setSelectedCategory: (category: Category) => void;
-}
 
 export function CategoryButtons({
   selectedCategory,

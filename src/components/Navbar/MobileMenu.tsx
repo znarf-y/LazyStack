@@ -1,13 +1,7 @@
 import React from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/Theme-Provider/theme-toggle";
-
-interface MobileMenuProps {
-  isOpen: boolean;
-  toggleMenu: () => void;
-  theme: string | undefined;
-  blackText?: React.CSSProperties;
-}
+import { MobileMenuProps } from "@/types/navbar-component-types";
 
 /**
  * Mobile menu toggle button component

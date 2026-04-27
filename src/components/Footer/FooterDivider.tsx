@@ -1,8 +1,5 @@
 import React from "react";
-
-interface FooterDividerProps {
-  isDark: boolean;
-}
+import { FooterDividerProps } from "@/types/footer-component-types";
 
 /**
  * Animated divider for separating footer sections

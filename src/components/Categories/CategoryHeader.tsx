@@ -1,10 +1,5 @@
-import React from "react";
 import { useTheme } from "next-themes";
-
-interface CategoryHeaderProps {
-  title: string;
-  description: string;
-}
+import { CategoryHeaderProps } from "@/types/category-component-types";
 
 /**
  * Section header for tool categories with title and description

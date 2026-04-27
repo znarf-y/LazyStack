@@ -1,9 +1,5 @@
 import React from "react";
-
-interface ToolBenefitsProps {
-  benefits: string[];
-  theme: string | undefined;
-}
+import { ToolBenefitsProps } from "@/types/tool-details-component-types";
 
 /**
  * Benefits component for the tool details dialog

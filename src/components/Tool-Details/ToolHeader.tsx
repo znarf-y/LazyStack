@@ -1,16 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { DialogTitle } from "@/components/ui/dialog";
-import { LucideIcon } from "lucide-react";
-
-interface ToolHeaderProps {
-  title: string;
-  imageIcon?: string;
-  icon?: LucideIcon;
-  category?: string;
-  highlight?: string;
-  theme: string | undefined;
-}
+import { ToolHeaderProps } from "@/types/tool-details-component-types";
 
 /**
  * Header component for the tool details dialog

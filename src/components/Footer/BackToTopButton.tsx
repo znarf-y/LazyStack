@@ -1,11 +1,6 @@
 import React from "react";
 import { ChevronUp } from "lucide-react";
-
-interface BackToTopButtonProps {
-  showButton: boolean;
-  isDark: boolean;
-  onClick: () => void;
-}
+import { BackToTopButtonProps } from "@/types/footer-component-types";
 
 /**
  * A button that appears when scrolling down to let users quickly go back to the top

@@ -1,8 +1,5 @@
 import React from "react";
-
-interface FooterBrandProps {
-  isDark: boolean;
-}
+import { FooterBrandProps } from "@/types/footer-component-types";
 
 /**
  * The brand section of the footer with logo and description

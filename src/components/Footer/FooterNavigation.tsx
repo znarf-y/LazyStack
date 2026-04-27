@@ -1,14 +1,9 @@
 import React from "react";
 import Link from "next/link";
-
-interface FooterNavigationProps {
-  isDark: boolean;
-}
-
-interface NavigationLink {
-  href: string;
-  label: string;
-}
+import {
+  FooterNavigationProps,
+  NavigationLink,
+} from "@/types/footer-component-types";
 
 /**
  * Navigation links section in the footer

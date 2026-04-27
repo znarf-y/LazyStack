@@ -3,11 +3,7 @@ import { Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/Theme-Provider/theme-toggle";
 import SearchDialog from "@/components/Search-Dialog/SearchDialog";
-
-interface ActionButtonsProps {
-  theme: string | undefined;
-  blackText?: React.CSSProperties;
-}
+import { ActionButtonsProps } from "@/types/navbar-component-types";
 
 /**
  * Action buttons component (search, theme, GitHub) for desktop view

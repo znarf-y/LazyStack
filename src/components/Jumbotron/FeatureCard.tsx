@@ -6,12 +6,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { FeatureItem } from "../../types/jumbotron-types";
-
-interface FeatureCardProps {
-  feature: FeatureItem;
-  isDark: boolean;
-}
+import { FeatureCardProps } from "@/types/jumbotron-component-types";
 
 /**
  * A card component for displaying feature information

@@ -1,10 +1,5 @@
 import React from "react";
-import { TerminalStyle } from "../../types/terminal-types";
-
-interface TerminalHeaderProps {
-  style: TerminalStyle;
-  title?: string;
-}
+import { TerminalHeaderProps } from "@/types/loading-component-types";
 
 /**
  * Terminal window header with traffic light buttons

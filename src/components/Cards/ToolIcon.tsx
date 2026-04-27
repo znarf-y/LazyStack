@@ -1,14 +1,5 @@
-import React from "react";
 import Image from "next/image";
-import { LucideIcon } from "lucide-react";
-
-interface ToolIconProps {
-  Icon?: LucideIcon;
-  imageIcon?: string;
-  title: string;
-  theme: string | undefined;
-  iconRef: React.RefObject<HTMLDivElement>;
-}
+import { ToolIconProps } from "@/types/card-component-types";
 
 /**
  * Displays either an image icon or Lucide icon for a tool

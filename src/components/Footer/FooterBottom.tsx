@@ -1,10 +1,6 @@
 import React from "react";
 import { Heart } from "lucide-react";
-
-interface FooterBottomProps {
-  isDark: boolean;
-  currentYear: number;
-}
+import { FooterBottomProps } from "@/types/footer-component-types";
 
 /**
  * Bottom section of the footer with copyright and credits

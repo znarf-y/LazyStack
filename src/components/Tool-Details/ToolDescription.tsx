@@ -1,10 +1,6 @@
 import React from "react";
 import { DialogDescription } from "@/components/ui/dialog";
-
-interface ToolDescriptionProps {
-  description: string;
-  theme: string | undefined;
-}
+import { ToolDescriptionProps } from "@/types/tool-details-component-types";
 
 /**
  * Description component for the tool details dialog

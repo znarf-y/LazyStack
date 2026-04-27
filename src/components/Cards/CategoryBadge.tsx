@@ -1,9 +1,4 @@
-import React from "react";
-
-interface CategoryBadgeProps {
-  category: string;
-  theme: string | undefined;
-}
+import { CategoryBadgeProps } from "@/types/card-component-types";
 
 /**
  * Displays the category badge for a tool

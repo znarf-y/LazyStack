@@ -1,15 +1,7 @@
 import React from "react";
-import { TerminalStyle } from "../../types/terminal-types";
+import { TerminalProps } from "@/types/loading-component-types";
 import { TerminalHeader } from "./TerminalHeader";
 import { TerminalContent } from "./TerminalContent";
-
-interface TerminalProps {
-  style: TerminalStyle;
-  text: string;
-  lineText: string;
-  animationComplete: boolean;
-  title?: string;
-}
 
 /**
  * Terminal window component combining header and content

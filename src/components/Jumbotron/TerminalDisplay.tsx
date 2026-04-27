@@ -1,11 +1,5 @@
-import React, { RefObject } from "react";
-
-interface TerminalDisplayProps {
-  isDark: boolean;
-  typedText: string;
-  isTyping: boolean;
-  dashboardCodeRef: RefObject<HTMLDivElement>;
-}
+import React from "react";
+import { TerminalDisplayProps } from "@/types/jumbotron-component-types";
 
 /**
  * Terminal display component with animated typing effect

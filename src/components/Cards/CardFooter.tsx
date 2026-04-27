@@ -1,12 +1,6 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
-interface CardFooterProps {
-  highlight: string;
-  theme: string | undefined;
-  onViewDetails: () => void;
-}
+import { CardFooterProps } from "@/types/card-component-types";
 
 /**
  * Footer component for Tool Cards with highlight badge and action button

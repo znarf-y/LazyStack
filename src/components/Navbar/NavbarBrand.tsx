@@ -1,10 +1,6 @@
 import React from "react";
 import { useTheme } from "next-themes";
-
-interface NavbarBrandProps {
-  scrollToSection: (sectionId: string) => void;
-  textColorClass: string;
-}
+import { NavbarBrandProps } from "@/types/navbar-component-types";
 
 /**
  * Brand logo component for the navbar

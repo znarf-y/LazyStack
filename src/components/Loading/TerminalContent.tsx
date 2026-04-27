@@ -1,12 +1,5 @@
 import React from "react";
-import { TerminalStyle } from "../../types/terminal-types";
-
-interface TerminalContentProps {
-  style: TerminalStyle;
-  text: string;
-  lineText: string;
-  animationComplete: boolean;
-}
+import { TerminalContentProps } from "@/types/loading-component-types";
 
 /**
  * Terminal content area with text and cursor

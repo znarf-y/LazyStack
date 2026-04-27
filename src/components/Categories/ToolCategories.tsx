@@ -4,7 +4,6 @@ import { useTheme } from "next-themes";
 import { useState } from "react";
 import { ToolCategoriesProps } from "@/types/tool-types";
 import { CategoryHeader } from "./CategoryHeader";
-import { Tool } from "@/types/tool-types";
 import ToolCard from "../Cards/ToolCard";
 import { Pagination } from "./Pagination";
 import { useCategoryTools } from "@/hooks/useCategoryTools";

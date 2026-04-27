@@ -1,9 +1,5 @@
-import React, { RefObject } from "react";
-
-interface DecorationsProps {
-  isDark: boolean;
-  decorationsRef: RefObject<HTMLDivElement>;
-}
+import React from "react";
+import { DecorationsProps } from "@/types/jumbotron-component-types";
 
 /**
  * Decorative elements for the jumbotron section

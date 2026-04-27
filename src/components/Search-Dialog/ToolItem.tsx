@@ -1,10 +1,5 @@
 import React from "react";
-import { Tool } from "../../types/search-types";
-
-interface ToolItemProps {
-  tool: Tool;
-  onClick: () => void;
-}
+import { ToolItemProps } from "@/types/search-dialog-component-types";
 
 export function ToolItem({ tool, onClick }: ToolItemProps) {
   return (

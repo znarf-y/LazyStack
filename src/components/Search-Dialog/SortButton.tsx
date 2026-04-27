@@ -1,10 +1,6 @@
 import React from "react";
 import { ArrowUpDown } from "lucide-react";
-
-interface SortButtonProps {
-  sortAlphabetically: boolean;
-  setSortAlphabetically: (value: boolean) => void;
-}
+import { SortButtonProps } from "@/types/search-dialog-component-types";
 
 export function SortButton({
   sortAlphabetically,

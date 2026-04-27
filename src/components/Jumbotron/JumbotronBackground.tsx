@@ -1,12 +1,5 @@
 import React from "react";
-import { MousePosition } from "../../types/jumbotron-types";
-
-interface JumbotronBackgroundProps {
-  isDark: boolean;
-  isMounted: boolean;
-  isMobileOrTablet: boolean;
-  mousePosition: MousePosition;
-}
+import { JumbotronBackgroundProps } from "@/types/jumbotron-component-types";
 
 /**
  * Component for displaying all the background visual elements of the jumbotron

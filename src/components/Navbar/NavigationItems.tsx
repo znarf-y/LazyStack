@@ -1,15 +1,6 @@
 import React from "react";
 import { Code, Paintbrush, Cpu } from "lucide-react";
-
-interface NavigationItemsProps {
-  scrollToSection: (sectionId: string) => void;
-  isActive: (sectionId: string) => boolean;
-  textColorClass: string;
-  mutedTextColorClass: string;
-  activeBgClass: string;
-  hoverBgClass: string;
-  blackText?: React.CSSProperties;
-}
+import { NavigationItemsProps } from "@/types/navbar-component-types";
 
 /**
  * Navigation items component for desktop view

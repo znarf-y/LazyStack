@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { Tool } from "@/types/tool-types";
 import { useTheme } from "next-themes";
 import { X } from "lucide-react";
+import { ToolDetailsProps } from "@/types/tool-details-component-types";
 
 // Import custom dialog components without the default close button
 import {
@@ -17,12 +17,6 @@ import { ToolHeader } from "./ToolHeader";
 import { ToolDescription } from "./ToolDescription";
 import { ToolBenefits } from "./ToolBenefits";
 import { ToolFooter } from "./ToolFooter";
-
-interface ToolDetailsProps {
-  isOpen: boolean;
-  onClose: () => void;
-  tool: Tool | null;
-}
 
 const ToolDetails = ({ isOpen, onClose, tool }: ToolDetailsProps) => {
   const { theme } = useTheme();
