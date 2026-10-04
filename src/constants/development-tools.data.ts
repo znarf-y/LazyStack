@@ -406,6 +406,20 @@ export const developmentTools = [
     link: "https://www.coderabbit.ai/",
   },
   {
+    title: "Agent QA",
+    description:
+      "Agent QA is a source-available application testing tool for defining and running natural-language regression flows across Web, mobile, and desktop applications. It provides CLI and MCP interfaces, retains execution memory, adapts flows to UI changes, and records reviewable evidence. Licensed under FSL-1.1-ALv2, with each release converting to Apache-2.0 after two years.",
+    icon: "/images/fallback-icon.png",
+    category: "Development",
+    benefits: [
+      "Natural-language Web, mobile, and desktop regression flows",
+      "CLI and MCP interfaces with execution memory",
+      "Reviewable steps, screenshots, and results",
+    ],
+    highlight: "Regression",
+    link: "https://github.com/vostride/agent-qa",
+  },
+  {
     title: "HeroUI",
     description:
       "HeroUI Chat is an AI-powered UI component generator that transforms text descriptions and screenshots into production-ready React code. It streamlines web development by leveraging an extensive open-source design system for rapid and efficient UI creation.",
