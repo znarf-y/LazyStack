@@ -196,6 +196,20 @@ export const developmentTools = [
     link: "https://yourware.so/",
   },
   {
+    title: "deed.page",
+    description:
+      "deed.page is static HTML hosting built for AI agents. An agent or a person can publish an HTML page or a small static site to a permanent public URL with one API call, a remote MCP tool, or a curl command. There is a free plan, and the Hobby plan is $3/month.",
+    icon: "/images/fallback-icon.png",
+    category: "Development",
+    benefits: [
+      "One API call or MCP tool call publishes a page to a public URL",
+      "Works from Claude Code, Codex, Cursor, and other MCP clients",
+      "Free plan includes version history and one custom domain",
+    ],
+    highlight: "Agent-ready",
+    link: "https://deed.page/",
+  },
+  {
     title: "n8n",
     description:
       "n8n is an open-source workflow automation tool that enables users to connect apps, services, and APIs with flexible, customizable workflows. It combines a visual node-based builder with code execution, allowing seamless automation for complex business processes.",
